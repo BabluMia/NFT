@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&amp;display=swap');
+.counter-bg{
+    background-image: url(../../assets/c-bg/18.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.counter-text{
+    font-family: "Varela Round";
+}
