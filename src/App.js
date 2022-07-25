@@ -5,6 +5,7 @@ import Counter from './Components/Counter/Counter';
 import FeatureCrad from './Components/Feature/FeatureCrad';
 import Header from './Components/Header/Header';
 import NewItems from './Components/NewItems/NewItems';
+import TopSeller from './Components/TopSeller/TopSeller';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <FeatureCrad/>
       <NewItems/>
       <Counter/>
+      <TopSeller/>
     </div>
   );
 }
