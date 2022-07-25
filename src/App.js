@@ -7,6 +7,7 @@ import Header from './Components/Header/Header';
 import JoinCommunity from './Components/JoinCommunity/JoinCommunity';
 import NewItems from './Components/NewItems/NewItems';
 import TopSeller from './Components/TopSeller/TopSeller';
+import LatestNews from './Components/LetestNews/LetestNews.jsx';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Counter/>
       <TopSeller/>
       <JoinCommunity/>
+      <LatestNews/>
     </div>
   );
 }
