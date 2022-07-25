@@ -49,14 +49,14 @@ const TopSeller = () => {
         {
             id:5,
             img:a5,
-            name:"Stacy Long",
+            name:"Jimmy Wright",
             worth:"3.2 ETH"
 
         },
         {
             id:6,
             img:a6,
-            name:"Mamie Barnett",
+            name:"Rash Ayan",
             worth:"3.2 ETH"
 
         },
@@ -84,7 +84,7 @@ const TopSeller = () => {
         {
             id:10,
             img:a10,
-            name:"Nicholas Daniels",
+            name:"Dani Rock",
             worth:"3.2 ETH"
 
         },
@@ -105,12 +105,12 @@ const TopSeller = () => {
         
     ]
     return (
-        <div className='py-20 max-w-7xl mx-auto'>
+        <div className='pb-12 pt-10 max-w-7xl mx-auto'>
             <div className='flex flex-col relative items-center'>
                 <h1 className='text-white text-4xl'>Top<span className='border-b-2 border-[#fff305] pb-3'> Sel</span>ler</h1>
                 
             </div>
-            <div className='grid xl:grid-cols-4 lg:grid-cols-3 place-items-center grid-cols-2  mt-12'>
+            <div className='grid xl:grid-cols-4 lg:grid-cols-3 place-items-center text-center grid-cols-2  mt-12'>
                
                 {
                     sellers.map(seller=> <div key={seller.id} className='flex my-3 space-x-3 '>

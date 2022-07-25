@@ -1,0 +1,9 @@
+/* "#fff305" */
+.icon{
+    color:#fff305
+}
+
+.com:hover .icon{
+    color: white;
+    transition: .5s ease-in-out;
+}
