@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&amp;display=swap');
+.footer-title{
+    color: #ffffff !important;
+    text-transform: capitalize;
+    font-family: "Varela Round";
+    font-size: 18px;
+}
+footer div a {
+    font-size:17px;
+    font-weight: normal;
+    color: #88a2a2;
+}
+span{
+    color: #88a2a2 !important;  
+}

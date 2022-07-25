@@ -8,6 +8,7 @@ import JoinCommunity from './Components/JoinCommunity/JoinCommunity';
 import NewItems from './Components/NewItems/NewItems';
 import TopSeller from './Components/TopSeller/TopSeller';
 import LatestNews from './Components/LetestNews/LetestNews.jsx';
+import MainFooter from './Components/MainFooter/MainFooter';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <TopSeller/>
       <JoinCommunity/>
       <LatestNews/>
+      <MainFooter/>
     </div>
   );
 }

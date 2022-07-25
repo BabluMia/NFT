@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div class="navbar fixed top-0 bg-black text-white">
+    <div class="navbar max-w-7xl mx-auto fixed top-0 bg-black text-white">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -55,7 +55,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a class="btn btn-ghost normal-case text-xl">Gigaland</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
