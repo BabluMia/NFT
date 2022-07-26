@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div class="navbar max-w-7xl mx-auto fixed top-0 bg-black text-white">
+    <div class="navbar  z-10 fixed top-0 bg-black text-white">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -90,7 +90,7 @@ const Header = () => {
         </ul>
       </div>
       <div class="navbar-end">
-        <a class="btn">Get started</a>
+        <a href="/" class="block mx-auto  bg-[#fff305] px-10 text-black font-semibold py-1">Connect Wallet</a>
       </div>
     </div>
   );

@@ -8,7 +8,8 @@ const Counter = () => {
     <div className="max-w-7xl counter-text grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-16 px-8 text-white mx-auto">
       <div className="border p-10 counter-bg  my-4 mx-4 lg:mx-3">
         <div className="flex font-bold text-6xl  justify-center items-center">
-          <CountUp start={0} end={58} duration={6} />
+          
+          <CountUp   start={0} end={58} duration={6} />
           <h5 >B+</h5>
         </div>
         <div>

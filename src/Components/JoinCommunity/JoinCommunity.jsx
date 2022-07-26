@@ -12,7 +12,7 @@ const JoinCommunity = () => {
     <div className="pb-8 pt-12 max-w-7xl mx-auto">
       <div className="flex flex-col relative items-center">
         <h1 className="text-white text-4xl">
-          Join C<span className="border-b-2 border-[#fff305] pb-3">omm</span>
+          Join C<p className="border-b-2 border-[#fff305] pb-3 inline text-white">omm</p>
           unity
         </h1>
       </div>

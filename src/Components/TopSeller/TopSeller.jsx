@@ -107,7 +107,7 @@ const TopSeller = () => {
     return (
         <div className='pb-12 pt-10 max-w-7xl mx-auto'>
             <div className='flex flex-col relative items-center'>
-                <h1 className='text-white text-4xl'>Top<span className='border-b-2 border-[#fff305] pb-3'> Sel</span>ler</h1>
+                <h1 className='text-white text-4xl'>Top<p className='border-b-2 border-[#fff305] pb-3 inline text-white'> Sel</p>ler</h1>
                 
             </div>
             <div className='grid xl:grid-cols-4 lg:grid-cols-3 place-items-center text-center grid-cols-2  mt-12'>

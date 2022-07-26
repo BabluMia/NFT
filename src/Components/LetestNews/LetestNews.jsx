@@ -9,7 +9,7 @@ const LetestNews = () => {
     <div className="pb-16 pt-6 max-w-7xl mx-auto">
       <div className="flex flex-col relative items-center">
         <h1 className="text-white text-4xl">
-          Late<span className="border-b-2 border-[#fff305] pb-3">st N</span>
+          Late<p className="border-b-2 border-[#fff305] pb-3 inline text-white">st N</p>
           ews
         </h1>
       </div>
