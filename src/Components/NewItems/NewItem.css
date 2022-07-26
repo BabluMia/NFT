@@ -1,0 +1,8 @@
+.item-cont {
+    cursor: pointer;
+}
+
+.item-cont:hover .new-item{
+    transform: scale(102%);
+    transition: all .9s ease-in-out;
+}
