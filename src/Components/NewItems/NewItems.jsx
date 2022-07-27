@@ -23,6 +23,74 @@ const NewItems = () => {
   const heartChsnge = () => {
     setHeart(!heart);
   };
+
+  const items = [
+    {
+        id:1,
+        img:music1,
+        name:"Cig Swaag",
+        eth:"0.08 ETH",
+        count:'1/20',
+        heart:'81'
+    },
+    {
+        id:2,
+        img:music2,
+        name:"Kick Shock",
+        eth:"0.09 ETH",
+        count:'1/22',
+        heart:'61'
+    },
+    {
+        id:3,
+        img:music3,
+        name:"Party House",
+        eth:"0.05 ETH",
+        count:'1/11',
+        heart:'97'
+    },
+    {
+        id:4,
+        img:music4,
+        name:"Militaire Electronic",
+        eth:"0.02 ETH",
+        count:'1/15',
+        heart:'73'
+    },
+    {
+        id:5,
+        img:music5,
+        name:"Someday",
+        eth:"0.06 ETH",
+        count:'1/20',
+        heart:'87'
+    },
+    {
+        id:6,
+        img:music6,
+        name:"Night Ravwe",
+        eth:"0.08 ETH",
+        count:'1/20',
+        heart:'81'
+    },
+    {
+        id:7,
+        img:music7,
+        name:"Sour Rock",
+        eth:"0.08 ETH",
+        count:'1/20',
+        heart:'81'
+    },
+    {
+        id:8,
+        img:music8,
+        name:"Slow Mo",
+        eth:"0.08 ETH",
+        count:'1/26',
+        heart:'61'
+    },
+  ]
+
   return (
     <div className="py-10 max-w-7xl mx-auto">
       <div className="flex flex-col relative items-center">
@@ -36,11 +104,13 @@ const NewItems = () => {
       </div>
 
       {/* item container */}
-      <div className="my-10 grid xl:grid-cols-4 mx-6">
-        <div class="card max-w-xl rounded-none shadow-xl border border-gray-800 px-6  item-cont">
+      <div className="my-10 grid xl:grid-cols-4   mx-2">
+
+        {
+            items.map(item =><div key={item.id} class="card my-3 max-w-xl rounded-none mx-3 shadow-xl border border-gray-800 px-6  item-cont">
           <figure className="mt-6 relative">
             <img
-              src={music1}
+              src={item.img}
               className="new-item h-64 mx-3 mt-3 ring-4 ring-[#fff305]"
               alt="Shoes"
             />
@@ -82,7 +152,9 @@ const NewItems = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div>)
+        }
+        
       </div>
     </div>
   );
